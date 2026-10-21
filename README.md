@@ -1,6 +1,6 @@
-# Nathali Ellen Himpel · Psicóloga Clínica
+# Náthali Ellen Himpel · Psicóloga Clínica
 
-Site de apresentação da psicóloga **Nathali Ellen Himpel** (Joinville/SC) para atendimento psicológico online.
+Site de apresentação da psicóloga **Náthali Ellen Himpel** (Joinville/SC) para atendimento psicológico online.
 
 Site estático (HTML, CSS e JavaScript puro), pronto para o GitHub Pages. Não precisa de build.
 
@@ -16,7 +16,7 @@ assets/           favicon e foto
 ## Como editar
 
 - **WhatsApp e CRP:** no topo de `js/main.js`, no objeto `CONFIG`.
-- **Foto da Nathali:** salve a foto como `assets/foto.jpg` (de preferência vertical, 4:5). Ela aparece sozinha no lugar do monograma "NH".
+- **Foto da Náthali:** salve a foto como `assets/foto.jpg` (de preferência vertical, 4:5). Ela aparece sozinha no lugar do monograma "NH".
 - **Valores dos planos:** na seção `INVESTIMENTO` do `index.html`.
 - **Textos:** direto no `index.html`.
 

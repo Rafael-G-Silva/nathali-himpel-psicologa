@@ -3,7 +3,7 @@
    ========================================================= */
 const CONFIG = {
   whatsapp: "5547989274781", // DDI + DDD + número, só dígitos
-  crp: "12/27289"            // número do CRP da Nathali
+  crp: "12/27289"            // número do CRP da Náthali
 };
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -16,7 +16,7 @@ function waLink(msg) {
 }
 function applyWaLinks() {
   $$(".js-wa").forEach((a) => {
-    a.href = waLink(a.dataset.msg || "Olá, Nathali! Vi seu site e gostaria de agendar uma sessão.");
+    a.href = waLink(a.dataset.msg || "Olá, Náthali! Vi seu site e gostaria de agendar uma sessão.");
     a.target = "_blank";
     a.rel = "noopener";
   });
@@ -179,7 +179,7 @@ $$(".mood").forEach((btn) => {
     setTimeout(() => {
       moodTitle.textContent = mood.title;
       moodText.textContent = mood.text;
-      moodCta.href = waLink(`Olá, Nathali! Vi seu site e gostaria de conversar sobre ${mood.topic}.`);
+      moodCta.href = waLink(`Olá, Náthali! Vi seu site e gostaria de conversar sobre ${mood.topic}.`);
       moodPanel.classList.remove("is-switching");
     }, reduceMotion ? 0 : 300);
   });
