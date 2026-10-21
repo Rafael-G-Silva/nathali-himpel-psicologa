@@ -3,7 +3,7 @@
    ========================================================= */
 const CONFIG = {
   whatsapp: "5547989274781", // DDI + DDD + número, só dígitos
-  crp: "12/XXXXX"            // número do CRP da Nathali
+  crp: "12/27289"            // número do CRP da Nathali
 };
 
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -25,7 +25,7 @@ applyWaLinks();
 
 /* ---------- CRP ---------- */
 $$(".js-crp").forEach((el) => {
-  el.textContent = el.textContent.replace("12/XXXXX", CONFIG.crp);
+  el.textContent = el.textContent.replace(/CRP\s*\S+/, `CRP ${CONFIG.crp}`);
 });
 
 /* ---------- Ano no rodapé ---------- */
